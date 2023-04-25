@@ -27,3 +27,5 @@
     st.write("Feels like:", weather_data["feelslike_c"], "°C")
     st.write("Wind speed:", weather_data["wind_kph"], "kph")
 
+# Run the streamlit app
+    streamlit run whetherapi.py

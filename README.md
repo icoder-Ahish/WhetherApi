@@ -82,4 +82,5 @@
                 st.write("<p>Wind speed: {} kph</p>".format(weather_data["wind_kph"]), unsafe_allow_html=True)
             else:
                 st.write("Failed to retrieve weather data for the specified location.")
-
+## Run Your App
+            streamlit run WhetherApi-demo3
